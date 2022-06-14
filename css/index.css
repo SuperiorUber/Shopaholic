@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(233, 233, 233);
+    display: flex;
+}
+.nav{
+    background-color: lightsalmon;
+}
+.prlx{
+    margin-bottom: 40px;
+    height: 50rem;
+    background-image: url(https://img.freepik.com/free-vector/shopping-woman-cartoon-girl-buys-wear-dresses-shoes-big-fashion-shop-sales-clothing-circle-scene-choice-amidst-clothes-accessories-chaos-paper-shopping-bags-vector-fashion-concept_176411-3588.jpg?w=2000);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+.heading{
+    font-size: xx-large;
+    font-weight: 600;
+    text-shadow: 2px 2px 2px black;
+    font-family: cursive;
+    color: white;
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
+    position: absolute;
+ 
+}
+.first{
+background-color: rgb(183, 255, 183);
+border-radius: 15px;
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+font-size: larger;
+height: 10rem;
+width: 100%;}
+@media screen and (max-width:1400px){
+    .first{
+        height: 12rem;
+        width: 100%;
+    }
+}
+
+.welcome{
+    margin-bottom: 2rem;
+}
+.buttons{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.button{
+    font-weight: 500;
+    width: 6rem;
+    border-radius: 15px 0px 15px 0px;
+    margin: 0 0.8rem;
+    background-color: white;
+    border: 3px solid white;
+    color: green;
+}
+button:hover{
+    background-color: lightgreen;
+    border: 2px solid black;
+    color: white;
+}
+.card{
+    margin: 2rem;
+    width: 18rem;
+    border-radius: 15px 15px 15px 15px;
+    background-color: lightgreen;
+    border: 3px solid black;
+}
+.card img{
+    border-radius: 15px 15px ;
+
+}
+.card-body{
+    border-radius: 15px 15px ;
+}
+.gallery{
+    margin: 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    padding: 0;
+}
+.bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid black;
+    font-size: x-large;
+    font-family: cursive;
+    border-radius: 15px;
+}
+.img{
+    height: 100%;
+    width: 400%;
+
+}
+@media (max-width: 992px){
+    .bottom{
+    display: flex;
+    flex-direction: column;
+    }
+}
+.two{
+ font: 700;
+ margin-left: 0rem;
+ text-align: center;
+}
+.img img{
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+}
+.speech{
+    border-bottom: 3px solid black;
+}
+footer{
+    font-size: xx-large;
+    font-weight: bolder;
+    font-family: cursive;
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 15px 15px 15px 15px;
+    background-color: bisque;
+}
+.contacts img{
+    height: 4rem;
+}
+.collapse{
+    background-color: lightgreen;
+}
+.container-fluid{
+    background-color: lightgreen;
+
+}
+.navbar-expand-lg.navbar-light.bg-light{
+    padding: 0%;
+    height: 2rem;
+}
